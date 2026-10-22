@@ -88,6 +88,7 @@ def merge_into_staging(client):
     print("MERGE completed successfully.")
 
 
+
 def verify_staging(client, records):
     ids = [r["ingestion_id"] for r in records]
 
